@@ -2,7 +2,7 @@
 FROM ubuntu
 
 #Dockerfile Maintainer
-MAINTAINER "ankujagtap20@gmail.com"
+LABEL email="ankujagtap20@gmail.com"
 
 #Installing nginx on ubuntu
 RUN apt update -y && apt install nginx-light -y && apt install systemd -y
